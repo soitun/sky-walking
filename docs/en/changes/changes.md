@@ -30,6 +30,7 @@
 * Remove string limitation in Jackson deserializer for ElasticSearch client.
 * Fix `disable.oal` does not work.
 * Enhance the stability of e2e PHP tests and update the PHP agent version.
+* Add component ID for the `dameng` JDBC driver.
 
 #### UI
 
@@ -41,11 +42,13 @@
 * Implement the Status API on Settings page.
 * Bump vite from 6.2.6 to 6.3.4.
 * Enhance async profiling by adding shorter and custom duration options.
+* refactor: implement OTEL handler with SPI for extensibility.
 
 #### Documentation
 
 * BanyanDB: Add `Data Lifecycle Stages(Hot/Warm/Cold)` documentation.
 * Add `SWIP-9 Support flink monitoring`.
+* Fix `Metrics Attributes` menu link.
 
 All issues and pull requests are [here](https://github.com/apache/skywalking/milestone/230?closed=1)
 
